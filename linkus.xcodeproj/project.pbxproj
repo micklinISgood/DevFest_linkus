@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A95856A700F35DF7C56F0E30 /* Pods_linkus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD55516B6B93C2D9CAEE589 /* Pods_linkus.framework */; };
 		E3E2615C1C656E6A00D33D1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2615B1C656E6A00D33D1D /* AppDelegate.swift */; };
 		E3E2615E1C656E6A00D33D1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2615D1C656E6A00D33D1D /* ViewController.swift */; };
 		E3E261611C656E6A00D33D1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E2615F1C656E6A00D33D1D /* Main.storyboard */; };
@@ -14,6 +15,15 @@
 		E3E261661C656E6A00D33D1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E261641C656E6A00D33D1D /* LaunchScreen.storyboard */; };
 		E3E261711C656E6A00D33D1D /* linkusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E261701C656E6A00D33D1D /* linkusTests.swift */; };
 		E3E2617C1C656E6A00D33D1D /* linkusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2617B1C656E6A00D33D1D /* linkusUITests.swift */; };
+		E3E2618B1C656F7900D33D1D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E2618A1C656F7900D33D1D /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		E3E261901C65773900D33D1D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E2618F1C65773900D33D1D /* FBSDKCoreKit.framework */; };
+		E3E261941C6588ED00D33D1D /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3E261931C6588ED00D33D1D /* background.jpg */; };
+		E3E261961C658C6300D33D1D /* linkus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3E261951C658C6300D33D1D /* linkus.jpg */; };
+		E3E261981C6591C300D33D1D /* UserPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E261971C6591C300D33D1D /* UserPage.swift */; };
+		E3E2619C1C66094400D33D1D /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2619B1C66094400D33D1D /* PageController.swift */; };
+		E3E2619E1C660E3D00D33D1D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2619D1C660E3D00D33D1D /* PageViewController.swift */; };
+		E3E261A01C66131E00D33D1D /* paper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3E2619F1C66131E00D33D1D /* paper.jpg */; };
+		E3E261A21C66132600D33D1D /* tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3E261A11C66132600D33D1D /* tea.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4BD55516B6B93C2D9CAEE589 /* Pods_linkus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_linkus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		965D92ED727C329F3D343496 /* Pods-linkus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linkus.release.xcconfig"; path = "Pods/Target Support Files/Pods-linkus/Pods-linkus.release.xcconfig"; sourceTree = "<group>"; };
+		C2F51D62F91684A6C87211DA /* Pods-linkus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linkus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-linkus/Pods-linkus.debug.xcconfig"; sourceTree = "<group>"; };
 		E3E261581C656E6A00D33D1D /* linkus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = linkus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E2615B1C656E6A00D33D1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3E2615D1C656E6A00D33D1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,15 @@
 		E3E261771C656E6A00D33D1D /* linkusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = linkusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E2617B1C656E6A00D33D1D /* linkusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linkusUITests.swift; sourceTree = "<group>"; };
 		E3E2617D1C656E6A00D33D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3E2618A1C656F7900D33D1D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../FacebookSDKs-iOS-20160115/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		E3E2618F1C65773900D33D1D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../FacebookSDKs-iOS-20160115/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		E3E261931C6588ED00D33D1D /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		E3E261951C658C6300D33D1D /* linkus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = linkus.jpg; sourceTree = "<group>"; };
+		E3E261971C6591C300D33D1D /* UserPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserPage.swift; path = ../UserPage.swift; sourceTree = "<group>"; };
+		E3E2619B1C66094400D33D1D /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		E3E2619D1C660E3D00D33D1D /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		E3E2619F1C66131E00D33D1D /* paper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paper.jpg; sourceTree = "<group>"; };
+		E3E261A11C66132600D33D1D /* tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tea.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3E2618B1C656F7900D33D1D /* FBSDKLoginKit.framework in Frameworks */,
+				E3E261901C65773900D33D1D /* FBSDKCoreKit.framework in Frameworks */,
+				A95856A700F35DF7C56F0E30 /* Pods_linkus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +99,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77C6A0EBFA2A3A8C9D3C06D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2F51D62F91684A6C87211DA /* Pods-linkus.debug.xcconfig */,
+				965D92ED727C329F3D343496 /* Pods-linkus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E3E2614F1C656E6A00D33D1D = {
 			isa = PBXGroup;
 			children = (
+				E3E261931C6588ED00D33D1D /* background.jpg */,
+				E3E261A11C66132600D33D1D /* tea.jpg */,
+				E3E261951C658C6300D33D1D /* linkus.jpg */,
+				E3E2619F1C66131E00D33D1D /* paper.jpg */,
+				E3E261891C656F4B00D33D1D /* Frameworks */,
 				E3E2615A1C656E6A00D33D1D /* linkus */,
 				E3E2616F1C656E6A00D33D1D /* linkusTests */,
 				E3E2617A1C656E6A00D33D1D /* linkusUITests */,
 				E3E261591C656E6A00D33D1D /* Products */,
+				77C6A0EBFA2A3A8C9D3C06D3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +137,15 @@
 		E3E2615A1C656E6A00D33D1D /* linkus */ = {
 			isa = PBXGroup;
 			children = (
+				E3E261971C6591C300D33D1D /* UserPage.swift */,
 				E3E2615B1C656E6A00D33D1D /* AppDelegate.swift */,
 				E3E2615D1C656E6A00D33D1D /* ViewController.swift */,
 				E3E2615F1C656E6A00D33D1D /* Main.storyboard */,
 				E3E261621C656E6A00D33D1D /* Assets.xcassets */,
 				E3E261641C656E6A00D33D1D /* LaunchScreen.storyboard */,
 				E3E261671C656E6A00D33D1D /* Info.plist */,
+				E3E2619B1C66094400D33D1D /* PageController.swift */,
+				E3E2619D1C660E3D00D33D1D /* PageViewController.swift */,
 			);
 			path = linkus;
 			sourceTree = "<group>";
@@ -125,6 +168,16 @@
 			path = linkusUITests;
 			sourceTree = "<group>";
 		};
+		E3E261891C656F4B00D33D1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3E2618F1C65773900D33D1D /* FBSDKCoreKit.framework */,
+				E3E2618A1C656F7900D33D1D /* FBSDKLoginKit.framework */,
+				4BD55516B6B93C2D9CAEE589 /* Pods_linkus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3E261801C656E6A00D33D1D /* Build configuration list for PBXNativeTarget "linkus" */;
 			buildPhases = (
+				E9115B177A3E1B4A8FE5CAFC /* Check Pods Manifest.lock */,
 				E3E261541C656E6A00D33D1D /* Sources */,
 				E3E261551C656E6A00D33D1D /* Frameworks */,
 				E3E261561C656E6A00D33D1D /* Resources */,
+				51EC27BD77341D6A96D48B8C /* Embed Pods Frameworks */,
+				D9CB1EFAAFE401C5F45C59FC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +285,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3E261961C658C6300D33D1D /* linkus.jpg in Resources */,
 				E3E261661C656E6A00D33D1D /* LaunchScreen.storyboard in Resources */,
+				E3E261A01C66131E00D33D1D /* paper.jpg in Resources */,
+				E3E261941C6588ED00D33D1D /* background.jpg in Resources */,
 				E3E261631C656E6A00D33D1D /* Assets.xcassets in Resources */,
 				E3E261611C656E6A00D33D1D /* Main.storyboard in Resources */,
+				E3E261A21C66132600D33D1D /* tea.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +311,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51EC27BD77341D6A96D48B8C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-linkus/Pods-linkus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9CB1EFAAFE401C5F45C59FC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-linkus/Pods-linkus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9115B177A3E1B4A8FE5CAFC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3E261541C656E6A00D33D1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3E2619C1C66094400D33D1D /* PageController.swift in Sources */,
+				E3E2619E1C660E3D00D33D1D /* PageViewController.swift in Sources */,
 				E3E2615E1C656E6A00D33D1D /* ViewController.swift in Sources */,
 				E3E2615C1C656E6A00D33D1D /* AppDelegate.swift in Sources */,
+				E3E261981C6591C300D33D1D /* UserPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,8 +508,10 @@
 		};
 		E3E261811C656E6A00D33D1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F51D62F91684A6C87211DA /* Pods-linkus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Users/micklin/Documents/FacebookSDK;
 				INFOPLIST_FILE = linkus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = columbia.edu.linkus;
@@ -408,6 +521,7 @@
 		};
 		E3E261821C656E6A00D33D1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 965D92ED727C329F3D343496 /* Pods-linkus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = linkus/Info.plist;
@@ -484,6 +598,7 @@
 				E3E261821C656E6A00D33D1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3E261831C656E6A00D33D1D /* Build configuration list for PBXNativeTarget "linkusTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +607,7 @@
 				E3E261851C656E6A00D33D1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3E261861C656E6A00D33D1D /* Build configuration list for PBXNativeTarget "linkusUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +616,7 @@
 				E3E261881C656E6A00D33D1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
