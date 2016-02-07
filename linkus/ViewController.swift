@@ -56,7 +56,7 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
             
             print("Login complete.")
             
-            NSLog("result is:%@",result.token);
+            //NSLog("result is:%@",result.token);
             if(FBSDKAccessToken.currentAccessToken() != nil) {
                 //They are logged in so show another view
                

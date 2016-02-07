@@ -43,17 +43,39 @@ class UserPage: UIViewController {
         
         print(pageIndex);
         
-        self.titleLabel.text = self.titleText
+        self.titleLabel.text = randomStringWithLength(Int(arc4random_uniform(7))+3) as String
         self.sign.text = self.z_sign[Int(arc4random_uniform(12))]
         self.education.text = self.univ[Int(arc4random_uniform(8))]
-        var dist = String((1+pageIndex*20+Int(arc4random_uniform(19))))
+        let dist = String((1+pageIndex*20+Int(arc4random_uniform(19))))
         self.mutual_fr.text = dist + " mile"
         let imageURL = String(format: "https://graph.facebook.com/\(imageFile)/picture?type=large")
+        
         self.loadAndSetImage(imageURL)
-        //self.imageView.image = UIImage(named: self.imageFile)
+        
+        
+        let blurView = UIVisualEffectView(effect: UIBlurEffect(style: UIBlurEffectStyle.Dark))
+        
+        blurView.frame = CGRectMake(0 ,0,(imageView.image?.size.width)!,150)
+        imageView.addSubview(blurView)
+        
+      
         
         //self.token.text =  defaults.stringForKey("gender")
         
+    }
+    func randomStringWithLength (len : Int) -> NSString {
+        
+        let letters : NSString = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        
+        var randomString : NSMutableString = NSMutableString(capacity: len)
+        
+        for (var i=0; i < len; i++){
+            var length = UInt32 (letters.length)
+            var rand = arc4random_uniform(length)
+            randomString.appendFormat("%C", letters.characterAtIndex(Int(rand)))
+        }
+        
+        return randomString
     }
 
     override func didReceiveMemoryWarning() {
@@ -72,10 +94,19 @@ class UserPage: UIViewController {
         
         return newImage
     }
+    func blur(view: UIImageView) {
+    let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.Dark)
+    let blurEffectView = UIVisualEffectView(effect: blurEffect)
+    blurEffectView.alpha = 0.5
+    blurEffectView.frame = view.bounds
+    view.addSubview(blurEffectView)
+    }
     func loadAndSetImage(url: String) {
         if let pictureURL = NSURL(string: url) {
             if let data = NSData(contentsOfURL: pictureURL) {
+                //imageView.image = applyBlurEffect(UIImage(data: data)!)
                 imageView.image = UIImage(data: data)
+                //blur(imageView);
             }
         }
     }
